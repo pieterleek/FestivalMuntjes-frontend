@@ -9,9 +9,14 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^5.0.8",
+    "@types/ws": "^8.5.10",
     "glob": "10.3.10",
     "typescript": "5.2.2",
-    "vite-plugin-eslint": "1.8.1"
+    "vite": "^5.0.8",
+    "vite-plugin-eslint": "1.8.1",
+    "websocket": "1.0.34"
+  },
+  "dependencies": {
+    "ws": "^8.16.0"
   }
 }
